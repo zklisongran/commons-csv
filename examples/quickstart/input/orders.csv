@@ -1,0 +1,5 @@
+order_id,customer,amount,status
+1001,Alice,128.50,PAID
+1002,Bob,89.90,PAID
+1003,Carol,45.00,PENDING
+1004,David,210.00,PAID

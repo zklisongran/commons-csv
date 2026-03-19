@@ -1,0 +1,5 @@
+sku,name,qty,unit_price,status
+A-100,Keyboard,8,129.00,ACTIVE
+A-101,Mouse,15,59.90,ACTIVE
+A-102,Webcam,0,399.00,INACTIVE
+A-103,Headset,12,249.00,ACTIVE
