@@ -89,7 +89,7 @@ public final class CSVRecord implements Serializable, Iterable<String> {
     }
 
     /**
-     * Returns a value by index.
+     * Modified by lisongran Returns a value by index.
      *
      * @param i
      *            a column index (0-based)
