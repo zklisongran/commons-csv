@@ -95,9 +95,13 @@ public final class CSVRecord implements Serializable, Iterable<String> {
      *            a column index (0-based)
      * @return the String at the given index
      */
-    public String get(final int i) {
-        return values[i];
+public String get(final int i) {
+    if (i < 0 || i >= values.length) {
+        throw new ArrayIndexOutOfBoundsException(
+            String.format("Index %d is out of bounds for length %d", i, values.length));
     }
+    return values[i];
+}
 
     /**
      * Returns a value by name. If multiple instances of the header name exists, only the last occurrence is returned.
